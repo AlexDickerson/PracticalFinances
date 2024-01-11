@@ -1,0 +1,155 @@
+{
+    "transactions": [
+      {
+        "date": "2024-01-10",
+        "category": "Groceries",
+        "amount": 75.50,
+        "description": "Weekly grocery shopping at XYZ Supermarket"
+      },
+      {
+        "date": "2024-01-10",
+        "category": "Clothing",
+        "amount": 50.00,
+        "description": "Purchase new clothes at Fashion Boutique"
+      },
+      {
+        "date": "2024-01-10",
+        "category": "Health",
+        "amount": 15.75,
+        "description": "Prescription medicine at Health Pharmacy"
+      },
+      {
+        "date": "2024-01-10",
+        "category": "Technology",
+        "amount": 120.99,
+        "description": "Buy a new gadget at Tech Store"
+      },
+      {
+        "date": "2024-01-10",
+        "category": "Miscellaneous",
+        "amount": 10.00,
+        "description": "Miscellaneous expense"
+      },
+      {
+        "date": "2024-01-09",
+        "category": "Gas",
+        "amount": 40.25,
+        "description": "Fill up the car at ABC Gas Station"
+      },
+      {
+        "date": "2024-01-09",
+        "category": "Entertainment",
+        "amount": 25.50,
+        "description": "Concert tickets for favorite band"
+      },
+      {
+        "date": "2024-01-09",
+        "category": "Dining Out",
+        "amount": 35.00,
+        "description": "Lunch with colleagues at Restaurant XYZ"
+      },
+      {
+        "date": "2024-01-09",
+        "category": "Shopping",
+        "amount": 60.75,
+        "description": "Retail therapy at Mall ABC"
+      },
+      {
+        "date": "2024-01-09",
+        "category": "Utilities",
+        "amount": 90.00,
+        "description": "Internet and cable bill payment"
+      },
+      {
+        "date": "2024-01-08",
+        "category": "Dining Out",
+        "amount": 30.00,
+        "description": "Dinner with friends at Restaurant XYZ"
+      },
+      {
+        "date": "2024-01-08",
+        "category": "Entertainment",
+        "amount": 15.25,
+        "description": "Visit the local amusement park"
+      },
+      {
+        "date": "2024-01-08",
+        "category": "Health",
+        "amount": 40.50,
+        "description": "Gym membership renewal"
+      },
+      {
+        "date": "2024-01-08",
+        "category": "Miscellaneous",
+        "amount": 8.99,
+        "description": "Random purchase at convenience store"
+      },
+      {
+        "date": "2024-01-08",
+        "category": "Shopping",
+        "amount": 75.00,
+        "description": "Buy new home decor items"
+      },
+      {
+        "date": "2024-01-07",
+        "category": "Utilities",
+        "amount": 120.00,
+        "description": "Monthly electricity and water bill payment"
+      },
+      {
+        "date": "2024-01-07",
+        "category": "Groceries",
+        "amount": 85.30,
+        "description": "Purchase cooking ingredients"
+      },
+      {
+        "date": "2024-01-07",
+        "category": "Technology",
+        "amount": 200.50,
+        "description": "Upgrade smartphone at Tech Expo"
+      },
+      {
+        "date": "2024-01-07",
+        "category": "Travel",
+        "amount": 150.75,
+        "description": "Book a weekend getaway"
+      },
+      {
+        "date": "2024-01-07",
+        "category": "Miscellaneous",
+        "amount": 12.00,
+        "description": "Unexpected expense"
+      },
+      {
+        "date": "2024-01-06",
+        "category": "Entertainment",
+        "amount": 20.50,
+        "description": "Movie night at Cinema ABC"
+      },
+      {
+        "date": "2024-01-06",
+        "category": "Dining Out",
+        "amount": 45.75,
+        "description": "Dinner at a fancy restaurant"
+      },
+      {
+        "date": "2024-01-06",
+        "category": "Shopping",
+        "amount": 30.20,
+        "description": "Buy new shoes at Shoe Emporium"
+      },
+      {
+        "date": "2024-01-06",
+        "category": "Health",
+        "amount": 18.99,
+        "description": "Purchase vitamins at Health Store"
+      },
+      {
+        "date": "2024-01-06",
+        "category": "Miscellaneous",
+        "amount": 7.50,
+        "description": "Small miscellaneous expense"
+      }
+    ]
+  }
+  
