@@ -16,7 +16,7 @@
     </div>
 </div>
 
-<style>
+<style lang="css">
     #body {
         display: grid;
         grid-template-columns: 10% 90%;

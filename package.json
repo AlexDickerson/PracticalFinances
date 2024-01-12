@@ -19,5 +19,8 @@
     "typescript": "^5.2.2",
     "unplugin-icons": "^0.18.2",
     "vite": "^5.0.8"
+  },
+  "dependencies": {
+    "@iconify/utils": "^2.1.14"
   }
 }

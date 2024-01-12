@@ -16,6 +16,7 @@
   --theme-accent: #C7BCA1;
   --theme-color: #4F709C;
   --theme-body: #F1D3B3;
+  --theme-text: black;
 }
 
 #app {

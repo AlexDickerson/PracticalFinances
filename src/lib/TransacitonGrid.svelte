@@ -1,48 +1,3 @@
-<div class="transactions-grid">
-    {#each Object.keys(data) as category, i}
-        <div class="column">
-            <div class="header">
-                <h5>{category}</h5>
-            </div>
-            <table>
-                <th>Amount</th>
-                {#each data[category] as trans, i}
-                    <tr>
-                        <td>{trans.amount}</td>
-                    </tr>
-                {/each}
-        </table>
-        </div>
-    {/each}
-</div>
-
-<style>
-    .transactions-grid {
-        display: grid;
-        grid-template-columns: 100px;
-        grid-auto-flow: column;
-        grid-auto-columns: 100px;
-        gap: 0px;
-        grid-auto-rows: minmax(100px, auto);
-
-        & table {
-            margin: auto
-        }
-
-        & th {
-            text-align: center;
-        }
-
-        & td {
-            text-align: center;
-        }
-
-        & .column {
-            border: 2px solid var(--theme-color);
-        }
-    }
-</style>
-
 <script context="module" lang="ts">
     import testData from "../../sampledata.json"
 
@@ -66,6 +21,13 @@
         return transactionsByCategory
     };
 
+    function onResize(
+        node: HTMLDivElement,
+        callback: (entry: DOMRectReadOnly) => void,
+        ): SvelteActionReturnType {
+        // ...
+    }
+
     interface Transaction{
         date: string;
         category: string;
@@ -73,3 +35,52 @@
         description: string;
     }
 </script>
+
+<div class="transactions-grid" >
+    {#each Object.keys(data) as category, i}
+        <div class="column">
+            <div class="header">
+                <h5>{category}</h5>
+            </div>
+            <table>
+                {#each data[category] as trans, i}
+                    <tr>
+                        <td><div class="currSign">{trans.amount}</div></td>
+                    </tr>
+                {/each}
+        </table>
+        </div>
+    {/each}
+</div>
+
+<style>
+    .currSign:before {
+        content: '$';
+    }
+
+    .transactions-grid {
+        display: grid;
+        grid-auto-flow: column;
+        gap: 0px;
+        grid-auto-rows: minmax(100px, auto);
+        color: black;
+        border: 2px solid var(--theme-color);
+        width: 100%;
+
+        & table {
+            margin: auto
+        }
+
+        & th {
+            text-align: center;
+        }
+
+        & td {
+            text-align: center;
+        }
+
+        & .column {
+            border: 2px solid var(--theme-color);
+        }
+    }
+</style>
