@@ -1,11 +1,15 @@
+<script lang="ts">
+    import NavItem from "./NavItem.svelte";
+    import SvelteLogo from 'virtual:icons/logos/svelte-icon'
+    import MdiStore24Hour from 'virtual:icons/mdi/store-24-hour'
+    import IconAccessibility from '~icons/carbon/accessibility'
+</script>
+
 <div class="navmenu">
-    <ul>
-        {#each GetNavMenuItems() as item, i}
-            <li>
-                {item.Label}
-            </li>
-        {/each}
-    </ul>
+    <NavItem Label="Overview"><SvelteLogo style="font-size:2em" /></NavItem>
+    <NavItem Label="Overview"><SvelteLogo style="font-size:2em" /></NavItem>
+    <NavItem Label="Overview"><SvelteLogo style="font-size:2em" /></NavItem>
+    <NavItem Label="Overview"><SvelteLogo style="font-size:2em" /></NavItem>
 </div>
 
 <style>
@@ -17,25 +21,3 @@
         }
     }
 </style>
-
-<script lang="ts">
-    function GetNavMenuItems(): NavMenuItem[] {
-        let navItems : NavMenuItem[] = [];
-
-        navItems.push(new NavMenuItem("test", "test"));
-        navItems.push(new NavMenuItem("test1", "test1"));
-        navItems.push(new NavMenuItem("test2", "test2"));
-        navItems.push(new NavMenuItem("test3", "test3"));
-
-        return navItems;
-    }
-
-    class NavMenuItem {
-        Label: string;
-        Link: string;
-        constructor(label: string, link: string){
-            this.Label = label;
-            this.Link = link;
-        }
-    }
-</script>

@@ -4,15 +4,15 @@
     import Header from "./lib/Header.svelte";
 </script>
 
-<div id="header">
+<!-- <div id="header">
     <Header></Header>
-</div>
+</div> -->
 <div id="body">
     <div id="navmenu">
-        <LeftHandNav></LeftHandNav>
+        <LeftHandNav />
     </div>
     <div id="content">
-        <TransacitonGrid></TransacitonGrid>
+        <TransacitonGrid />
     </div>
 </div>
 
@@ -20,19 +20,20 @@
     #body {
         display: grid;
         grid-template-columns: 10% 90%;
-        height: 100%
+        height: 100%;
+        background-color: white;
     }
 
     #navmenu {
-        border-right: 3px solid var(--theme-color);
+        background-color: var(--theme-color);
     }
 
     #header {
-        border-bottom: 3px solid var(--theme-color);
+        background-color: var(--theme-header);
         height: 5%;
     }
 
     #content {
-        padding: 10px;
+        padding: 100px;
     }
 </style>
